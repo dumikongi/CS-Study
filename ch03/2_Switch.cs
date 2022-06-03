@@ -19,8 +19,8 @@ namespace ch03
     {
         static void Main(string[] args)
         {
-            Console.Write("점수입력 : ");               // 콘솔은 문자열이다
-            string strscore = Console.ReadLine();
+            Console.Write("점수입력 : ");                  
+            string strscore = Console.ReadLine();         // 콘솔은 문자열이다
 
             int score = int.Parse(strscore);              // 문자열을 숫자로 변환함.
             int grade = score / 10;                       
