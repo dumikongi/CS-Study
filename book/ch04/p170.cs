@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace book.ch04
 {
-    internal class p157
+    internal class p170
     {
         static void Main1(string[] args)
         {
-            for (int i = 0; i < 100; i++)
+            int[] intArray = { 1, 2, 3, 4, 5, 6 };
+
+
+            for (int i = intArray.Length - 1; i >= 0; i--)
             {
-                Console.WriteLine("출력");
+                Console.WriteLine(intArray[i]);
             }
         }
     }

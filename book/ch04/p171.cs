@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 
 namespace book.ch04
 {
-    internal class p157
+    internal class p171
     {
         static void Main1(string[] args)
         {
-            for (int i = 0; i < 100; i++)
+            string[] array = { "사과", "배", "포도", "딸기", "바나나" };
+
+            foreach (string item in array)
             {
-                Console.WriteLine("출력");
+                Console.WriteLine(item);
             }
         }
+       
     }
 }

@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace book.ch04
 {
-    internal class p157
+    internal class p165
     {
         static void Main1(string[] args)
         {
-            for (int i = 0; i < 100; i++)
+            string input;
+            do
             {
-                Console.WriteLine("출력");
-            }
+                Console.WriteLine("입력(exit을 입력하면 종료)");
+                input = Console.ReadLine();
+            } while (input != "exit");
         }
     }
 }

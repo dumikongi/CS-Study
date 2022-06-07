@@ -6,14 +6,22 @@ using System.Threading.Tasks;
 
 namespace book.ch04
 {
-    internal class p157
+    internal class p167
     {
         static void Main1(string[] args)
         {
-            for (int i = 0; i < 100; i++)
+            int sum = 0;
+            
+
+            for (int n = 0; n <= 100; n++)
             {
-                Console.WriteLine("출력");
+                sum += n;
             }
+
+
+
+            Console.WriteLine("0부터 100까지의 합: " +sum);
+
         }
     }
 }

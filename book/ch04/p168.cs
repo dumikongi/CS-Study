@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace book.ch04
 {
-    internal class p157
+    internal class p168
     {
         static void Main1(string[] args)
         {
-            for (int i = 0; i < 100; i++)
+            int output = 1;
+
+            for(int n = 1; n<= 20; n++)
             {
-                Console.WriteLine("출력");
+                output *= n;
             }
+
+            Console.WriteLine(output);
         }
     }
 }
