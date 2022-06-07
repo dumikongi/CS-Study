@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * 
  * 날짜 : 2022/06/07
  * 이름 : 허락녕
- * 내용 ; 메서드 오버로딩 실습하기 
+ * 내용 : 메서드 오버로딩 실습하기 
  * 
  * 메서드 오버로딩
  * - 같은 이름의 메서드를 매개변수로 구분한 메서드
@@ -26,7 +26,7 @@ namespace ch04
             int r1 = Plus(1, 2);
             int r2 = Plus(1, 2, 3);
             double r3 = Plus(1.01, 2.3);
-            string r4 = Plus("Hello" , "World");     
+            string r4 = Plus("Hello", "World");     
              
                 Console.WriteLine("r1: "+r1);
                 Console.WriteLine("r2: "+r2);
@@ -35,7 +35,7 @@ namespace ch04
         }
 
 
-        public static  int Plus(int a, int b)
+        public static int Plus(int a, int b)
         {
             return  a + b;
         }
