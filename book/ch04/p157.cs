@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace book.ch02
+namespace book.ch04
 {
-    internal class p70
+    internal class p157
     {
         static void Main1(string[] args)
         {
-            Console.WriteLine("안녕하세요");
-            
+
         }
     }
 }

@@ -10,8 +10,8 @@ namespace book.ch02
     {
         static void Main1(string[] args)
         {
-            Console.WriteLine("가나" + "다라");
-            Console.WriteLine("안녕하세요"[0]);
+            Console.WriteLine("가나" + "\t" + "다라");
+            Console.WriteLine("안녕하세요"[1]);
         }
     }
 }

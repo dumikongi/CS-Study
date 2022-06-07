@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace book.ch02
 {
-    internal class p70
+    internal class p100
     {
         static void Main1(string[] args)
         {
-            Console.WriteLine("안녕하세요");
-            
+               
         }
     }
 }
