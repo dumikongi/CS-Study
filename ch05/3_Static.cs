@@ -80,7 +80,7 @@ namespace Ch05
             Calc c2 = Calc.Instance;           // Calc는 지금 프라이빗 되어있을 때 생성하는 방법
             Calc c3 = Calc.Instance;           // Calc cal = new Calc();          이건 프라이빗일 때 생성하는 방법
             Calc c4 = Calc.Instance;
-            Calc c5 = Calc.Instance;             // 이게 다섯개 있다고 해서 5개가 아니다 데이터영역에 오직 하나만 있다. 
+            Calc c5 = Calc.Instance;           // 이게 다섯개 있다고 해서 5개가 아니다 데이터영역에 오직 하나만 있다. 
 
 
 
