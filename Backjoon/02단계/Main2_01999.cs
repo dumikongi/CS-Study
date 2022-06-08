@@ -4,16 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+/*
 namespace Backjoon._02단계
 {
-    internal class Main2_01
+    internal class Main2_01999
     {
-        static void Main(string[] args)
+        
+        static void Main1(string[] args)
         {
-            string[] num = Console.ReadLine().Split();
 
-            int n1 = int.Parse(num[0]);
-            int n2 = int.Parse(num[1]);
+            string num1 = Console.Write();
+            string num2 = Console.ReadLine();
+           
+            int n1 = int.Parse(num1);
+            int n2 = int.Parse(num2);
 
             if (n1 > n2)
             {
@@ -28,6 +33,10 @@ namespace Backjoon._02단계
             {
                 Console.WriteLine("==");
             }
+            
+        
         }
     }
 }
+
+*/
