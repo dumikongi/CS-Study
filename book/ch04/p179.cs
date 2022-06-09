@@ -8,7 +8,7 @@ namespace book.ch04
 {
     internal class p179
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             for (int i = 1; i < 10; i++)
             {

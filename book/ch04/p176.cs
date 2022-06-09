@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace book.ch04
 {
-    internal class p17699999
+    internal class p176
     {
         static void Main1(string[] args)
         {
@@ -14,8 +14,10 @@ namespace book.ch04
             {
                 for (int j = 0; j < 10 - i; j++)
                     Console.Write(' ');
-                for (int j = 0; j < i + 1; i++)
+
+                for (int j = 0; j < i + 1; j++)
                     Console.Write('*');
+
                 Console.Write('\n');   
             }                                  
                                 

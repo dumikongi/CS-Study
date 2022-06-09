@@ -8,7 +8,7 @@ namespace book.ch04
 {
     internal class p17899999
     {
-        /*
+       /*
         static void Main(string[] args)
         {
             for (int i = 0; i < 10; i++)
@@ -26,7 +26,8 @@ namespace book.ch04
 
         doNotUse:
             Console.WriteLine("goto 키워드");
+       */
 
-        */
+       
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace book.ch04
 {
-    internal class p17799999
+    internal class p177
     {
         static void Main1(string[] args)
         {

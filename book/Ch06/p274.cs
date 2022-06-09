@@ -6,21 +6,13 @@ using System.Threading.Tasks;
 
 namespace book.Ch06
 {
-    class Test
+    internal class p274
     {
-        public int Power(int x)
-        {
-            return x*x;
-        }
-    }
+        public static int instanceVariable = 10;
 
-    internal class p266
-    {
         static void Main1(string[] args)
         {
-            Test test = new Test();
-            Console.WriteLine(test.Power(9));
-
+            Console.WriteLine(instanceVariable);
         }
     }
 }
