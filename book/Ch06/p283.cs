@@ -24,7 +24,5 @@ namespace book.Ch06
             this.price = price;            
         }
     }
-    internal class p283
-    {        
-    }
+
 }

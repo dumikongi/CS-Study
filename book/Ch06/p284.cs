@@ -32,7 +32,10 @@ namespace book.Ch06
                 Console.WriteLine(productB.id + ":" + productB.name);
                 Console.WriteLine(Product.counter + "개 생성되었습니다.");
 
+            
             }
+
+           
         }
     }
    
