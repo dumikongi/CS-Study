@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Backjoon._02단계
 {
-    internal class Main2_02999
+    internal class Main2_02
     {
         static void Main1(string[] args)
         {
             string num = Console.ReadLine();
             int n = int.Parse(num);
 
-            if (n >= 90)
+            if (n >= 90 && n <= 100)
             {
                 Console.WriteLine("A");
             }
