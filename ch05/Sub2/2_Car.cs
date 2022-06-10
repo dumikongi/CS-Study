@@ -29,8 +29,8 @@ namespace ch05.Sub2
 
         // Getter, Setter  -> c#에서는 프로피티라고 한다
         // 프라이빗이지만 접근해야할 때 참조해야할 때가 있다 그럴 때 사용
-        public string Name { get { return name; } set { name = value; } }
-        public string Color { get { return color; } set { color = value; } }
+        public string Name { get { return name; } set { name = value; } }                // public string Getname() { return name; } 
+        public string Color { get { return color; } set { color = value; } }               // public string Getcolor() { return color; }                        
         public int Speed
         {
             get

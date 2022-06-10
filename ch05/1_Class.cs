@@ -12,7 +12,7 @@ using System.Threading.Tasks;
  * 내용 : 클래스와 객체 실습하기 교재 p203
  * 
  * - stack은 차곡차곡 정보가 쌓이고, heap은 마구잡이로 정보가 저장된다.
- * - 변수는 스택에 저장이 된다. 객체는 heap영역에 저장된다.
+ * - 변수는 stack에 저장이 된다. 객체는 heap영역에 저장된다.
  * - 
  */
 
@@ -20,7 +20,7 @@ namespace ch05
 {
     internal class _1_Class          // 클래스와 메서드는 대문자로 시작, 변수는 소문자로
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             // 객체 생성
             Car sonata = new Car();  // 'ctrl와 .' 을 동시에 누르면 Car클래스와 연결된다.                           
