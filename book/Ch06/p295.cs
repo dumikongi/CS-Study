@@ -11,8 +11,7 @@ namespace book.Ch06
 
 
     }
-    /*
-     * 
+     /*
     class Box
     {
         // 변수
@@ -48,7 +47,6 @@ namespace book.Ch06
         }
 
     */
-
 
 
 

@@ -17,8 +17,19 @@ namespace book.Ch07
 
     }
 
-    internal class Dog : Animal
+    internal class Dog : Animal           //클래스의 부모자식관계가 형성되면 자식클래스는 부모클래스의 public 또는 protected 멤버에 접근할 수 있다. 
     {
+
+        /* 자식클래스에서 부모클래스에서 정의한 멤버를 사용하고 싶다면 다음과 같이 한다. -> 이게 무슨 말일까? 상속을 받지 않겠다는 말인가?
+        
+        public void Test()
+        {
+            Eat();
+            Sleep();
+        }
+      
+        */
+
         public string Color { get; set; }
         public void Bark() { Console.WriteLine("왈왈 짓습니다."); }
     }
@@ -27,4 +38,9 @@ namespace book.Ch07
     {
         public void Meow() { Console.WriteLine("왈왈 짓습니다."); }
     }
+
+
+    
+    
+    
 }
