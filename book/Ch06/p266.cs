@@ -8,7 +8,7 @@ namespace book.Ch06
 {
     class Test
     {
-        public int Power(int x)
+        public int Power(int x)               
         {
             return x*x;
         }
