@@ -14,14 +14,17 @@ namespace Backjoon._03단계
             string num = Console.ReadLine();
             int n = int.Parse(num);
 
+            if (n < 1 || n > 100) return;
+           
+
             for (int i = 0; i < n; i++)
             {
-                for (int j = 0; j < n - 1; j++)
+                for (int j = 0; j < n - i; j++)
                 {
                     Console.Write(' ');
                 }
 
-                for (int k = 5; k > 5 - i; k--)
+                for (int k = 6; k > 5 - i; k--)
                 {
                     Console.Write('*');
                 }
