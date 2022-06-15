@@ -23,7 +23,7 @@ namespace book.Ch06
        
 
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Test test = new Test();
             Console.WriteLine(test.Multi(1,3));
