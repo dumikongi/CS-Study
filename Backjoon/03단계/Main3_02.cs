@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Backjoon._03단계
 {
-    internal class Main3_02
+    internal class _3_02
     {
+        
+    }
+       
+}
+
+
 
         /*
         class Test
@@ -49,5 +55,4 @@ namespace Backjoon._03단계
 
         */
        
-    }
-}
+    

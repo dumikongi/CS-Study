@@ -8,7 +8,7 @@ namespace Backjoon._04단계
 {
     internal class _2
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             string[] num = Console.ReadLine().Split();
 
@@ -36,7 +36,7 @@ namespace Backjoon._04단계
 
                 else
                 {
-
+                    continue;
                 }
 
             }
