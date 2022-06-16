@@ -57,7 +57,7 @@ namespace book.Concept
 
         class Program
         {
-            static void Main(string[] args)
+            static void Main1(string[] args)
             {
                 Character mario = new Character();
                 Character luigi = new Character();
