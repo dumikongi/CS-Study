@@ -18,22 +18,22 @@ namespace Backjoon._02단계
 
             if (h < 0 || h > 23) return;
              
-            else if (m < 0 || m > 23) return;
+            else if (m < 0 || m > 59) return;
 
 
             if (m <= 59 && m >= 45)
             {
-                m = m - 45;
-                Console.WriteLine(h);
-                Console.Write(m);
+                int a = m - 45;
+                Console.Write(h);
+                Console.Write(a);
             }
 
             else if ( m >= 0 && m < 45)
             {
                 h--;
-                m = m + 15;
-                Console.WriteLine(h);
-                Console.Write(m);
+                int b = m + 15;
+                Console.Write(h);
+                Console.Write(b);
             }
 
 

@@ -12,7 +12,7 @@ namespace Backjoon._02단계
         
         static void Main1(string[] args)
         {
-            String[] num = Console.ReadLine().Split(' ');
+            String[] num = Console.ReadLine().Split(" ");
 
             int n1 = int.Parse(num[0]);
             int n2 = int.Parse(num[1]);

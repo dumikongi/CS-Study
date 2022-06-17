@@ -17,6 +17,8 @@ namespace Backjoon._02단계
             if (n1 < 0 || n1 > 23) return;
             else if (n2 < 0 || n2 > 60) return;
 
+            Console.WriteLine();
+
             string t = Console.ReadLine();
             int c = int.Parse(t);
 
@@ -30,23 +32,25 @@ namespace Backjoon._02단계
                 Console.WriteLine(n1 + ' ' + b1 );
             }
 
+            /*
             else
             {
                 int b2 = n2 + (c % 60);
-                int a1 = n1 + c / 60;
+                int a1 = n1 + (c / 60);
 
                 if(b2 < 60)
                 {
-                    Console.WriteLine(a1 + ' ' + b2);
+                    Console.WriteLine(n1 + a1 + ' ' + b2);
                 }
                 
                 else
                 {
-                    Console.WriteLine(a1 + 1 + ' ' + b2 - 60);
+                    Console.WriteLine(n1 + a1 + 1 + ' ' + b2 - 60);
 
                 }
                     
             }
+            */
 
 
 
