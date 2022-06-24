@@ -8,7 +8,7 @@ namespace book.Ch10
 {
     internal class p477
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.Write("입력 : ");
             string input = Console.ReadLine();
@@ -29,7 +29,12 @@ namespace book.Ch10
                 Console.WriteLine(e.GetType() + "이 발생했습니다.");
             }
 
-            
+            catch (IndexOutOfRangeException e)
+            {
+                Console.WriteLine("IndexOutOfRangeException 발생");
+                Console.WriteLine(e.GetType() + "이 발생했습니다.");
+
+            }
 
         }
       

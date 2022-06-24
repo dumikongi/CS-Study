@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Ch12\" />
-    <Folder Include="Ch11\" />
   </ItemGroup>
 
 </Project>
