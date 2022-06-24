@@ -35,7 +35,7 @@ namespace Test._3
 
     internal class _04
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Student.studentId = 202221000;
 
