@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Backjoon._02단계
 {
-    internal class Main2_03
+    internal class Main2_03o
     {
         static void Main1(string[] args)
         {

@@ -8,18 +8,48 @@ namespace Backjoon._03단계
 {
     internal class _3_02
     {
-        
-    }
+
+
+        static void Main1(string[] args)
+        {
+            
+           
+                // 숫자 t를 받는다.
+                int t = int.Parse(Console.ReadLine());
+
+
+                // 랜덤한 t쌍의 정수 A,B를 입력받는다.
+                // a, b 배열로 입력받아 나중에 출력
+                int[] a = new int[t];
+                int[] b = new int[t];
+
+                
+                for (int i = 0; i < t; i++)
+                {
+                    string[] numbers = Console.ReadLine().Split(' ');
+                    a[i] = int.Parse(numbers[0]);
+                    b[i] = int.Parse(numbers[1]);
+
+                if (a[i] < 1 || a[i] > 9 || b[i] < 1 || b[i] > 9) return;
+
+                }
+
+                for (int i = 0; i < t; i++)
+                {
+                    Console.WriteLine("{0}", a[i] + b[i]);
+                }
+           
+        }
        
+      
+    }
 }
-
-
 
         /*
         class Test
         {
             public int sum(int x, int y)
-                { return x + y; }
+            { return x + y; }
         }
 
 
@@ -27,7 +57,7 @@ namespace Backjoon._03단계
         {
             String[] num1 = Console.ReadLine().Split();
 
-            
+
 
             String[] num2 = Console.ReadLine().Split();
 
@@ -54,5 +84,12 @@ namespace Backjoon._03단계
         }
 
         */
+
+
+
+
+        
+        
+        
        
     

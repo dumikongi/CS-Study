@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Backjoon._02단계
 {
-    internal class Main2_06
+    internal class Main2_06o
     {
         static void Main1(string[] args)
         {
@@ -29,28 +29,30 @@ namespace Backjoon._02단계
             if (b1 < 60)
             {
                 
-                Console.WriteLine(n1 + ' ' + b1 );
+                Console.WriteLine(n1 + " " + b1 );
             }
 
-            /*
+            
             else
             {
-                int b2 = n2 + (c % 60);
-                int a1 = n1 + (c / 60);
-
-                if(b2 < 60)
-                {
-                    Console.WriteLine(n1 + a1 + ' ' + b2);
-                }
+                int b2 = (n2 + c) % 60;
+                int a1 = (n2 + c) / 60;
                 
+                if(n1 + a1 > 23)
+                {
+                    Console.WriteLine(n1 + a1 - 24 + " " + b2); 
+                }
+
                 else
                 {
-                    Console.WriteLine(n1 + a1 + 1 + ' ' + b2 - 60);
-
+                    Console.WriteLine(n1 + a1 + " " + b2);
                 }
+                                  
+                
+               
                     
             }
-            */
+            
 
 
 
