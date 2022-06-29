@@ -1,0 +1,7 @@
+C:\Users\1302\Desktop\Study\Project2\obj\Debug\net6.0-windows\Project2.csproj.AssemblyReference.cache
+C:\Users\1302\Desktop\Study\Project2\obj\Debug\net6.0-windows\Project2.Form1.resources
+C:\Users\1302\Desktop\Study\Project2\obj\Debug\net6.0-windows\Project2.csproj.GenerateResource.cache
+C:\Users\1302\Desktop\Study\Project2\obj\Debug\net6.0-windows\Project2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1302\Desktop\Study\Project2\obj\Debug\net6.0-windows\Project2.AssemblyInfoInputs.cache
+C:\Users\1302\Desktop\Study\Project2\obj\Debug\net6.0-windows\Project2.AssemblyInfo.cs
+C:\Users\1302\Desktop\Study\Project2\obj\Debug\net6.0-windows\Project2.csproj.CoreCompileInputs.cache
