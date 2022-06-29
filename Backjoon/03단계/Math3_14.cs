@@ -18,7 +18,7 @@ namespace Backjoon._03단계
 {
     internal class Math3_14
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int a = int.Parse(Console.ReadLine());
             if (a < 0 || a > 100) return;
