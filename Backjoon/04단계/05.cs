@@ -19,6 +19,8 @@ namespace Backjoon._04단계
             float max = float.MinValue;
 
             for (int i = 0; i < n; i++)
+
+
             {
                 if (score[i] > max)
                 {
